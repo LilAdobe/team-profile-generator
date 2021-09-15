@@ -1,6 +1,4 @@
-function generateMarkdown(data) {
-
-    return`<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     
     <head>
@@ -23,14 +21,14 @@ function generateMarkdown(data) {
                 <div class="col mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">${data.name} - ${data.title}</h5>
+                            <h5 class="card-title">jim - manager</h5>
                             <p class="card-text"></p>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">ID${data.id}</li>
-                                <li class="list-group-item">Email ${data.email}</li>
-                                <li class="list-group-item">Office#${data.office}</li>
+                                <li class="list-group-item">ID1</li>
+                                <li class="list-group-item">Email manager@gmail</li>
+                                <li class="list-group-item">Office#111</li>
                             </ul>
                         </div>
                         
@@ -40,14 +38,14 @@ function generateMarkdown(data) {
                     <div class="card">
     
                         <div class="card-body">
-                            <h5 class="card-title">${data.name2} - ${data.title2}</h5>
+                            <h5 class="card-title">jack - Engineer</h5>
                             <p class="card-text"></p>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">ID${data.id2}</li>
-                                <li class="list-group-item">Email ${data.email2}</li>
-                                <li class="list-group-item">Github/${data.github}</li>
+                                <li class="list-group-item">ID3</li>
+                                <li class="list-group-item">Email engineer@gmail</li>
+                                <li class="list-group-item">Github/jack123</li>
                             </ul>
                         </div>
                     </div>
@@ -56,14 +54,14 @@ function generateMarkdown(data) {
                     <div class="card">
     
                         <div class="card-body">
-                            <h5 class="card-title">${data.name1} - ${data.title1}</h5>
+                            <h5 class="card-title">mike - Intern</h5>
                             <p class="card-text"></p>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">ID${data.id1}</li>
-                                <li class="list-group-item">Email ${data.email1}</li>
-                                <li class="list-group-item">School-${data.school}</li>
+                                <li class="list-group-item">ID2</li>
+                                <li class="list-group-item">Email intern@gmail</li>
+                                <li class="list-group-item">School-UNCC</li>
                             </ul>
                         </div>
                     </div>
@@ -106,7 +104,4 @@ function generateMarkdown(data) {
     
     </body>
     
-    </html>`
-}
-
-module.exports = generateMarkdown;
+    </html>
