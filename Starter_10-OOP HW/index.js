@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const generateMarkdown = require('./utils/generateMarkdown')
 
- const employee = require('./Employee');
+
 // const manager = require('');
 // const engineer = require('');
 // const intern = require('');
