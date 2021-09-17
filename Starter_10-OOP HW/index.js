@@ -6,7 +6,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 
-// const manager = require('');
+const manager = require('./lib/manager');
 // const engineer = require('');
 // const intern = require('');
 
